@@ -1,0 +1,29 @@
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none;
+}
+
+.Playlist-save:hover {
+ background-color: rgba(108, 65, 233, .7);
+}
+
+.Playlist-save {
+  cursor: pointer;
+  color: white;
+  width: 10rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  margin-top: 1.27rem;
+  background-color: #6c41ec;
+  text-align: center;
+  font-size: .83rem;
+  transition: background-color .25s;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}

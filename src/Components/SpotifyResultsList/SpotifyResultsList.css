@@ -1,0 +1,50 @@
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+  margin: 0;
+  padding: 0;
+}
+
+.SearchResults {
+  width: 50%;
+  max-height: 950px;
+  overflow-y: scroll;
+  padding: .88rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #FFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #FFF;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #FFF;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #FFF;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #FFF;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #FFF;
+}
+
+@media only screen and (max-width: 1020px) {
+  .SearchResults {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+}

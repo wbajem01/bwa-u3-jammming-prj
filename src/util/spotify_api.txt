@@ -1,0 +1,6 @@
+// Example URL for spotify ...
+// https://accounts.spotify.com/authorize/?client_id=2809822f6b7747cfb8b243c5226bae80&response_type=code&redirect_uri=http://localhost:3000/callback&scope=user-read-private%20user-read-email&state=34fFs29kd09
+// https://developer.spotify.com/documentation/web-api/quick-start/
+// https://accounts.spotify.com/authorize/?client_id=2809822f6b7747cfb8b243c5226bae80&response_type=code&redirect_uri=http://localhost:3000/callback&scope=user-read-private%20user-read-email&state=34fFs29kd09&q=roadhouse%20blues
+
+// https://accounts.spotify.com/en/authorize?client_id=2809822f6b7747cfb8b243c5226bae80&response_type=token&redirect_uri=http:%2F%2Flocalhost:3000%2Fcallback&scope=user-read-private%20user-read-email&state=34fFs29kd09&show_dialog=true
